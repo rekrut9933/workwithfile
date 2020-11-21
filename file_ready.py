@@ -38,7 +38,7 @@ def main():
         longest = max(words, key=len)
         smallest = min(words, key=len)
         print("Кол-во слов: %d" % len(words))
-        print("Кол-во уникальных слов: %d" % len(words_dict))
+        print("Количество уникальных слов: %d" % len(words_dict))
         print("Наибольшее слово: ", longest)
         print("Наименьшее слово: ", smallest)
         print("Все уникальные слова:")
